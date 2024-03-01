@@ -1,0 +1,72 @@
+
+   /*  */
+body {
+    background-image: url(https://img1.migalhas.uol.com.br/gf_base/empresas/MIGA/imagens/25A9560CA9FDB7603A33F64B92A44740457B_escola.png);
+    background-repeat: no-repeat; /* impedindo a imagen de fundo de se duplicar*/
+    background-size: cover;/*expandindo a imagen*/
+}
+
+
+
+.linha{color: white;/* mudando a cor da linha*/
+    width: 150px;/* largura da linha*/
+    margin-bottom: 50px;/*distacia da autura entre a linha e o email*/
+}
+
+
+.conteiner{
+    background-color: #34344e9d;/*cor da div (fubdi do quadrado*/
+    width: 380px;/*distacia da largura do conteudo*/
+    height: 370px;/*distacia da autura do conteudo*/
+    color: white;/*cor das letra (dentro do quadrado)*/
+    margin: 190px auto;/*centralizar do automatico*/
+    text-align: center;/*centralizando o texto*/
+    padding: 30px;/*borda invizivel*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*alteirando a fonte da letra*/
+    box-shadow: 7px 14px 23px black;/*quadradinho (me manter conectado)*/
+
+}
+.btn-enviar{
+    background-color: #89a7b1;/*cor botão logar*/
+    width: 230px;/*largura do quadrado logar */
+    height: 25px;/*autura do quadrado logar*/
+    color: white;/*cor da letra logar*/
+    font-size: 13px;/*aumentar o tamanho da palavra logar*/
+    border-radius: 7px;/*borda aredondada do logar*/
+}
+.btn-enviar:hover{
+    background-color: #566981;/*ao colocar o mause muda de cor*/
+    transition: 0,6s;/*tempo q leva ao mudar de cor*/
+    cursor: pointer;/*ao colocar o mause se transforma em uma mão indicadora*/
+}
+.content{
+    display: flex; /*torna o conteudo flexcivel para alteração*/
+    align-items: center;/**/
+    justify-content: center;/**/
+}
+.content button{
+    width: 100px;/**/
+    height: 23px;/**/
+    font-size: 10px;/**/
+    background-color: #89a7b1;
+    color: white;
+    margin: 20px;
+    border-radius: 7px;
+}
+.content button:hover {
+    background-color: #566981;
+    transition: 0,6;
+    cursor: pointer;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
